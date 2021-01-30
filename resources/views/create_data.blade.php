@@ -5,6 +5,7 @@
 @section("main")
 <div class="container">
     <div class="jumbotron py-4">
+    <h1 class="">Create Guest Detail</h1>
         <form method="post" action="{{ route('booking.store') }}">
         @csrf
             <div class="form-group row">
