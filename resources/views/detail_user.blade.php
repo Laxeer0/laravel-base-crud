@@ -1,6 +1,6 @@
   
 @extends("layouts.layouts")
-@section("title","$detail->guest_full_name")
+@section("title","Dettagli - $detail->guest_full_name")
 
 
 @section("main")
